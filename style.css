@@ -1,0 +1,1063 @@
+body{
+    background-color:#F7F9FA;
+    margin: 0;
+    padding:0;
+    font-family: 'Orbitron', sans-serif;
+    background-image:url("base image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;  
+    background-repeat: no-repeat;
+    height: 800px;
+    max-width: 100%;
+    
+ }
+ .headerBar{
+    display: inline-flex;
+     flex-direction: row-reverse;
+     flex-wrap: nowrap ;
+     justify-content: space-evenly;
+    row-gap: 6rem;
+    margin-top: -100px;
+    margin-left: 1px;
+    margin-right: 90px;
+ }
+ .loginBtn{
+    width: 40px;
+    height: 40px;
+    margin-top: 155px;
+  margin-left: 280px;
+    padding: 1px 1px;
+    background-color: #ffffff;
+    border:#ffffff;
+    border-style: solid;
+    border-radius: 25px;
+ }
+ 
+ .nav{
+    display: flex;
+    justify-content: space-between;
+    align-self: right;
+   
+ }
+ .nav-links{
+    margin-top: 50px;
+    padding-left:300px ;
+    gap: 1px;
+ }
+ .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding:100px 12px;
+   position: relative;
+  margin-left: 100px;
+ }
+ .nav-links ul li a{
+    color:#172351;
+    text-decoration:none ;
+    font-size:20px;
+    text-shadow: 2px 3px #090a12;
+ }
+ .nav-links ul li a{
+    color:#ffffff;
+    text-decoration:none ;
+  
+ }
+ .nav-links ul li::after{
+    content:'';
+    width:0%;
+    height:5px;
+    background:#08D8DA;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+ 
+ }
+ .nav-links ul li:hover::after{
+    width:100% ;
+ }
+ 
+ #searchHeader{
+    display: inline-block;
+    list-style: none;
+     border: none;
+ }
+ .searchBarheader{
+    margin-top: 300px;
+ }
+ #findBtn{
+    background-color: #5601c5;
+    color: #ffffff;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding: 12px 60px;
+    border-radius: 10px;
+    font-size:25px;
+    margin-left: -280px;
+ 
+ 
+ }
+ 
+ #findBtn:active{
+    background-color:  #08D8DA;;
+    }
+ 
+ .searchBar{
+    font-size:30px;
+    border-radius: 10px; 
+    padding-top:10px;
+    padding-bottom: 20px;
+    padding-left:5px;
+ }
+ #search{
+    margin-left:15%;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    padding-right: 30px;
+ }
+ .sloganHeader{
+   margin-top: 350px;
+   margin-bottom: 250px;
+   margin-left:30px ;
+   text-shadow: #000000;
+    color: white;
+    text-shadow: 2px 3px #090a12;
+ }
+ #what-we-are{
+    display: inline-flex;
+     flex-direction: row;
+     flex-wrap: nowrap ;
+     justify-content: space-evenly;
+    row-gap: 6rem;
+ }
+ .usText{
+   height: 300px;
+   width: 400px;
+   margin-right: 250px;
+   margin-left: 180px;
+   font-size: 20px;
+ }
+ .usHeader{
+    margin-top: 80px;
+    margin-left: 250px;
+    color: 	#FE509A;
+ }
+ .usVideo{
+    background-color: #000000;
+    height: 630px;
+    width: 1100px;
+    border-style: solid;
+    margin-top: -100px;
+    margin-left: -120px;
+    border-radius: 25px;
+    padding-top: 20px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .icon-phone
+ {
+    
+     background-image: url('phoneicon.png');	
+     background-repeat: no-repeat;
+     background-size: 50px;
+     height: 50px;
+     width: 50px;
+     display: flex;
+     margin-left: 40px;
+     margin-bottom: 40px;
+     
+ }
+ 
+ .container1{
+    background-color: #ffffff;
+    padding: 30px 60px;
+    border-radius: 25px;
+    border: 2px solid #bababa ;
+ }
+ 
+ 
+ 
+ 
+ .icon-cc
+ {
+     background-image: url('ccicon.png');	
+     background-repeat: no-repeat;
+     background-size: 50px;
+     height: 50px;
+     width: 50px;
+     display: flex;
+     margin-left: 40px;
+     margin-bottom: 40px;
+ }
+ 
+ .container2{
+    background-color: #ffffff;
+    padding: 30px 60px;
+    border-radius: 25px;
+    border: 2px solid #bababa ;
+ }
+ 
+ .icon-schedule
+ {
+     background-image: url('Calandericon.png');	
+     background-repeat: no-repeat;
+     background-size: 50px;
+     height: 50px;
+     width: 50px;
+     display: flex;
+     margin-left: 40px;
+     margin-bottom: 40px;
+    
+ }
+ 
+ .container3{
+    background-color: #ffffff;
+    padding: 30px 60px;
+    border-radius: 25px;
+    border: 2px solid #bababa ;
+ }
+ 
+ .icon-cost
+ {
+     background-image: url('moneyicon.png');	
+     background-repeat: no-repeat;
+     background-size: 50px;
+     height: 50px;
+     width: 50px;
+     display: flex;
+     margin-left: 10px;
+     margin-bottom: 40px;
+     margin-top: -20PX;
+ }
+ 
+ .container4{
+    background-color: #ffffff;
+    padding: 50px 90px;
+    border-radius: 25px;
+    border: 2px solid #bababa ;
+    
+ }
+ 
+ .content:hover
+ {
+     animation-name: trin;
+     animation-duration: 1.5s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+ }
+ 
+ 
+ @keyframes trin {
+ 
+     from {
+         transform:rotate3d(0, 0, 1, 0deg);
+     }
+     20%, 32%, 44%, 56%, 68% {
+         transform: rotate3d(0, 0, 1, 0deg);
+     }
+     23%, 35%, 47%, 59%, 71% {
+         transform: rotate3d(0,0,1,15deg);
+     }
+     26%, 38%, 50%, 62%, 74% {
+         transform: rotate3d(0,0,1,0deg);
+     }
+     29%, 41%, 53%, 65%, 77% {
+         transform: rotate3d(0,0,1,-15deg);
+     }
+     80% {
+         transform:rotate3d(0, 0, 1, 0deg);
+     }
+ 
+ }
+ 
+ 
+ #nave-bar{
+    background-color: #87919e;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-top: 20PX;
+    padding-bottom: 20PX;
+ 
+ }
+ 
+ .guideHead{
+    text-align: center;
+ }
+ #icon-info{
+ margin:0px 150px;
+ }
+ 
+ .guideText{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 1000px;
+ }
+ 
+ .iconBar1{
+    display:flex;
+    position:static;
+    gap:200px;
+    justify-content:space-evenly;
+ }
+ .icon-teeth{
+    background-image:url('teeth.png');	
+    background-repeat:no-repeat;
+    background-size:150px;
+    margin-bottom: -60px;
+    margin-left:33px;
+    display:flex;
+    height:150px;
+    width:150px; 
+ }
+ .tooth-lift{
+    background-color: transparent;
+    margin-bottom:-30px;
+    padding-bottom:70px;
+    position: relative;
+    padding-right:80px;
+    padding-left:80px;
+    margin-top:-50px;
+    padding-top:50px;  
+    width: 30px;
+    height: 40px;   
+ }
+  .tooth-lift:hover{
+    background-color:transparent;
+    animation-fill-mode:forwards;
+    animation-name:Venneers;
+    animation-duration:1s; 
+    padding-right:80px;
+    padding-left:80px;  
+    position:relative;
+    height:40px;
+    width:30px;
+ }
+  @keyframes Venneers {
+    from {bottom: 0px;}
+    to {bottom: 30px; }
+ }
+  .dentalVeneerstext{
+    background-color:transparent;
+    margin-top:-30px;
+    margin-left: 0px;
+    font-size:25px;
+ }
+  .icon-exteeth{
+    background-image:url('extrteeth.png');	
+    background-repeat:no-repeat;
+    background-size:150px;
+    margin-bottom:-40px;
+    display:flex;
+    height:150px;
+    width:150px;
+ }
+ .extooth-lift{
+    background-color:transparent;
+    padding-bottom:80px;
+    margin-bottom:-35px;
+    margin-left:0.69px;
+    padding-right:80px;
+    position:relative;
+    padding-left:80px;
+    padding-top:50px;
+    margin-top:-72px;
+    height:40px;
+    width:30px;  
+ }
+  .extooth-lift:hover{
+    background-color:transparent;
+    animation-fill-mode:forwards;
+    animation-name:Extraction;
+    animation-duration:1s; 
+    position:relative; 
+    height:40px;
+    width:30px;
+ }
+  @keyframes Extraction {
+    from {left: 50px;}
+    to {left: 70px; }
+ }
+  .Extractiontext{
+    background-color:transparent;
+    margin-top: -20px ;
+    font-size: 25px; 
+ }
+ .icon-metteeth{
+    background-image:url('metcrowns.png');	
+    background-repeat:no-repeat;
+    background-size:150px;
+    margin-bottom: -50px;
+    display:flex;
+    height:150px;
+    width:150px;
+ }
+ .MetalfreeCrowns-lift{
+    background-color:transparent;
+    padding-bottom:120px;
+    padding-right:80px;
+    margin-top:-145px; 
+    margin-left:-38px;
+    padding-left:80px;
+    position:relative;
+    padding-top:50px;
+    height:40px;
+    width:65px;
+ }   
+ .MetalfreeCrowns-lift:hover{
+    animation-name:MetalfreeCrowns; 
+    background-color:transparent;
+    animation-fill-mode:forwards; 
+    animation-duration:1s; 
+    position:relative; 
+    height:40px;
+    width:65px;
+ }
+ @keyframes MetalfreeCrowns {
+   from {top: 0px;}
+   to {top: 25px; }
+ }
+ .MetalfreeCrownstext{
+   background-color:transparent;
+   margin-right: 0px;
+   margin-left: -50px;
+   font-size: 25px;
+ }
+ .icon-dentalImplants{
+    background-image:url('impbase.png');	
+    background-repeat:no-repeat;
+    background-size:150px;
+    margin-bottom:-5px;
+    display:flex;
+    height:150px;
+    width:150px;
+ }
+ .dentalImplants-lift{
+   background-color:transparent;
+   position:relative;
+   height:85px;
+   width:45px;
+   padding-right:80px;
+   padding-left:80px;
+   padding-bottom:200px;
+   padding-top:-30px;
+   margin-top:-145px;
+   margin-bottom:-175px;
+   margin-left:-25px;
+ }
+ .dentalImplants-lift:hover{
+   background-color: transparent;
+   animation-fill-mode: forwards;
+   animation-name: dentalImplants;
+   animation-duration:1s; 
+   position:relative; 
+   height: 85px;
+   width: 45px;
+ }
+ @keyframes dentalImplants  {
+    0% { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
+ }
+ .DentalImplantstext{
+   background-color:transparent;
+   margin-right:90px;
+   margin-left: -30px;
+   font-size:25px;
+ }
+ .iconBar2{
+    justify-content:space-evenly;
+    gap:200px;
+    position:static;
+    margin-top:110px;
+    margin-left: 50px;
+    display:flex;
+ }
+ .icon-dentureTop{
+    background-image:url('denture\ \ bottom.png');	
+    background-repeat:no-repeat;
+    background-size:150px;
+    display:flex;
+    height:150px;
+    width:150px; 
+ }
+ .dentureTop-lift{
+   background-color:transparent;
+   padding-bottom:200px;
+   padding-right:80px;
+   position:relative;
+   padding-left:80px;
+   padding-top:50px;
+   height:50px;
+   width:100px;
+   margin-top:-180px;
+   margin-left:-55px;
+   margin-bottom: -100px;
+ }
+ .dentureTop-lift:hover{
+   background-color: transparent;
+   animation-fill-mode: forwards;
+   animation-name: Denture;
+   animation-duration:1s; 
+   position:relative; 
+   height: 50px;
+   width: 100px;
+ }
+ @keyframes Denture {
+   from {top: 0px;}
+   to {top: 18px; }
+ }
+ .Denturetext{
+   background-color:transparent;
+   margin-right:90px;
+   margin-left: 20px;
+   font-size:25px; 
+ }
+ .icon-cleaningTeeth{
+    background-image:url('cleaning\ base.png');	
+    background-repeat:no-repeat;
+    background-size:150px;
+    display:flex;
+    height:150px;
+    width:150px; 
+ }
+ .sparkle {
+     background: #1c7794ff;
+     height: 1.5em;
+     width: 1.5em;
+     border-radius: .5em;
+     transform: rotate(45deg);
+     position: relative;
+     transition: font-size .3s ease-in-out;
+    margin-left: 90px;
+    margin-top: -120px;
+    margin-bottom: 123px;
+ }
+ .sparkle::before, .sparkle::after {
+     content: '';
+     position: absolute;
+     background: inherit;
+     top: -.5em;
+     right: -1.5em;
+     height: 1em;
+     width: 1em;
+     border-radius: .3em;
+ }
+ .sparkle::after {
+     top: 1.2em;
+     right: -1.3em;
+     height: .6em;
+     width: .6em;
+     border-radius: .2em;
+ }
+ .sparkle:hover {
+     font-size: 1.1em;
+ }
+ .cleaningTeethtext{
+   background-color:transparent;
+   margin-left: -30px;
+   margin-right: 80px;
+   font-size:25px; 
+ }
+ .implantProcedures{
+    margin-right:150px ;
+ }
+ .icon-implantProcedures{
+    background-image:url('chipteeth.png');	
+    background-repeat:no-repeat;
+    background-size:150px;
+    margin-bottom: -50px;
+    margin-left:-40px;
+    display:flex;
+    height:150px;
+    width:150px;
+ }
+ .implantProcedures-lift{
+    background-color:transparent;
+    padding-bottom:190px;
+    margin-bottom: -40px;
+    padding-right:80px;
+    margin-top:-145px; 
+    margin-left:-95px;
+    padding-left:90px;
+    position:relative;
+    padding-top:50px;
+    height:20px;
+    width:25px;
+ }   
+ .implantProcedures-lift:hover{
+    animation-name:implantProcedures; 
+    background-color:transparent;
+    animation-fill-mode:forwards; 
+    animation-duration:1s; 
+    position:relative; 
+    height:20px;
+    width:25px;
+ }
+ @keyframes implantProcedures {
+   from {top: 0px;}
+   to {top: 40px; }
+ }
+ .implantProcedurestext{
+   background-color:transparent;
+   margin-right: 0px;
+   margin-left: -100px;
+   font-size: 25px;
+   
+ }
+ .Fillings{
+    margin-right: 40px;
+    margin-left: -50px;
+ }
+ .icon-Fillings{
+    background-image:url('Fillingstooth.png');	
+    background-repeat:no-repeat;
+    background-size:150px;
+    margin-bottom:-50px;
+    margin-left:-50px ;
+    display:flex;
+    height:150px;
+    width:150px;
+ }
+ .FillingsTool-lift{
+    background-color:transparent;
+    padding-bottom:180px;
+    margin-bottom: -60px;
+    padding-right:80px;
+    margin-top:-145px; 
+    margin-left:-75px;
+    padding-left:90px;
+    position:relative;
+    padding-top:50px;
+    height:50px;
+    width:110px;
+ }   
+ .FillingsTool-lift:hover{
+    animation-name:Fillings; 
+    background-color:transparent;
+    animation-fill-mode:forwards; 
+    animation-duration:1s; 
+    position:relative; 
+    height:50px;
+    width:110px;
+ }
+ @keyframes Fillings {
+   from {bottom: 0px;}
+   to {bottom: 12px; }
+ }
+ .Fillingstext{
+   background-color:transparent;
+   margin-right: -100px;
+   margin-left:-120px;
+   font-size: 25px;
+ }
+ .iconBar3{
+    justify-content:space-evenly;
+    position:static;
+    margin-top:80px;
+    display:flex;
+    gap:290px;
+ }
+ .icon-rootCanal{
+    background-image:url('Root\ Canal.png');	
+    background-repeat:no-repeat;
+    background-size:190px;
+    margin-bottom: -50px;
+    display:flex;
+    height:190px;
+    width:190px;
+ }
+ .rootCanal-lift{
+    background-color:transparent;
+    padding-bottom:160px;
+    margin-bottom:-60px ;
+    padding-right:80px;
+    margin-top:-130px; 
+    margin-left:-22px;
+    padding-left:90px;
+    position:relative;
+    padding-top:50px;
+    height:40px;
+    width:70px;
+ }   
+ .rootCanal-lift:hover{
+    animation-name:rootCanal; 
+    background-color:transparent;
+    animation-fill-mode:forwards; 
+    animation-duration:1s; 
+    position:relative; 
+    height:40px;
+    width:70px;
+ }
+ @keyframes rootCanal {
+    from {top: 0px;}
+    to {top: 10px; }
+ }
+ .rootCanaltext{
+   background-color:transparent;
+   margin-right: 0px;
+   margin-left: -60px;
+   font-size: 25px; 
+ }
+ .icon-3DdigitalTomography{
+    background-image:url('radio.png');	
+    background-repeat:no-repeat;
+    background-size:190px;
+    margin-bottom: 10px;
+    display:flex;
+    height:190px;
+    width:190px;
+ }
+ .digitalTomographytext{
+   background-color:transparent;
+   margin-right: 0px;
+   margin-left: -60px;
+   font-size: 25px;
+ }
+ .animation-area{
+    margin-top: 100px;
+ font-family: 'Orbitron', sans-serif;
+ background-image:url("Dentapp.jpg");
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ max-width: 100%;  
+ height: 110vh;
+ }
+ 
+ #diy-builder{
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+ }
+ .diyhead{
+    margin-left:630px;
+    margin-top:70px;
+    color:#238DEF;
+ }
+ .diybody{
+    margin-left:600px;
+    margin-right:180px;
+ }
+ .buildHead{
+    margin-left: 20px;
+    margin-right: -90px;
+ }
+ .buildHead2{
+    margin-left: 20px;
+    margin-right: -90px;
+    font-size: 30px;
+ }
+ .buildHead3{
+    margin-left: 20px;
+    margin-right: -90px;
+    font-size: 30px;
+ }
+ .buildtext3{
+    margin-right: -100px;
+    font-size: 20px;
+    text-align: center;
+ }
+ 
+ .buildtext{
+    margin-left:0px;
+    margin-right: -160px;
+    margin-bottom: 50px;
+    font-size: 15px;
+ }
+ .buildTask{
+    text-align: center;
+    margin-left: 80px;
+ }
+ .build-It{
+    text-align: left;
+    width: 500px;
+    height: 820px;
+    margin: 8% auto;
+    padding-right: -50px;
+    padding-left: -50px;
+    margin-top: -900px;
+    background: #08D8DA;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+ }
+ #opt-in-dentalVeneers{
+    margin-bottom: 10px;
+ }
+ #opt-in-extraction{
+    margin-bottom: 10px;
+ }
+ #opt-in-metalFreecrowns{
+    margin-bottom: 10px;
+ }
+ #opt-in-dentalImplants{
+    margin-bottom: 10px;
+ }
+ #opt-in-dentures{
+    margin-bottom: 10px;
+ }
+ #opt-in-cleaning{
+    margin-bottom: 10px;
+ }
+ #opt-in-teethWhitening{
+    margin-bottom: 10px;
+ }
+ #opt-in-implantProcedures{
+    margin-bottom: 10px;
+ }
+ #opt-in-Fillings{
+    margin-bottom: 10px;
+ }
+ #opt-in-Resins{
+    margin-bottom: 10px;
+ }
+ #opt-in-rootCanal{
+    margin-bottom: 10px;
+ }
+ #opt-in-endodontics{
+    margin-bottom: 10px;
+ }
+ #opt-in-digitalTomography{
+    margin-bottom: 10px;
+ }
+ 
+ 
+ .build-It form{
+    width: 280px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    transition: 0.5s;
+ }
+ .form input{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom:1px solid #999;
+    outline: none;
+    background: transparent;
+ }
+ ::placeholder{
+    color: #777;
+ }
+ 
+ .btn-box{
+  width: 100%;
+  margin: 30px;
+  text-align: right;
+ }
+ .btn-box{
+    color: #fff;
+ }
+ 
+ #nextbutton1{
+    width: 110px;
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    margin-right: -90px;
+    margin-left: -90px;
+    background-color: #FE509A;
+    border-radius:30px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+ }
+ #nextbutton2{
+    width: 110px;
+    height: 35px;
+    margin: -13px;
+    margin-right: -80px;
+    background-color: #FE509A;
+    border-radius:30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+ }
+ #nextbutton3{
+    width: 110px;
+    height: 35px;
+    margin: -13px;
+    margin-right: -80px;
+    background-color: #FE509A;
+    border-radius:30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+ }
+ #backbutton1{
+    width: 110px;
+    height: 35px;
+    margin: -13px;
+    margin-left: 50px;
+    margin-right: -80px;
+    background-color: #FE509A;
+    border-radius:30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+ }
+ #backbutton2{
+    width: 110px;
+    height: 35px;
+    margin: -13px;
+    margin-left: 50px;
+    margin-right: -80px;
+    background-color: #FE509A;
+    border-radius:30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+ }
+ #backbutton3{
+    width: 110px;
+    height: 35px;
+    margin: -13px;
+    margin-left: 0px;
+    margin-right: -80px;
+    background-color: #FE509A;
+    border-radius:30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+ }
+ #Form1{
+    color: #5601c5;
+    font-size: 20px;
+ }
+ #Form2{
+    color: #5601c5;
+    font-size: 20px;
+ }
+ #Form3{
+    color: #5601c5;
+    font-size: 20px;
+ }
+ #Form4{
+    color: #5601c5;
+    font-size: 20px;
+ }
+ .step-row{
+    width: 500px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -1px 5px 5px -1px #000;
+    position: relative;
+ }
+ .step-col{
+    width: 120px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    font-size: 25px;
+ }
+ #progress{
+    position: absolute;
+    height: 100%;
+    width: 120px;
+    background-color: #FE509A;
+ }
+ #progress::after{
+    content: '';
+    height: 0;
+    width: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    border-left: 20px solid  #5601c5;
+ };
+ 
+ .next01{
+  
+  }
+  .back01{
+    margin-left: -5px; 
+ }
+ .next02 {
+    margin-top: 5px;
+    margin-left: -5px;
+  }
+ .back02{
+    margin-left: -5px; 
+ }
+ .next03 {
+    margin-left: -5px; 
+  }
+  .back03{
+    margin-left: -7px; 
+ }
+ .name{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-right: 90px;
+    padding-top: 5px  ;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius:8px;
+ }
+ .email{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-right: 90px;
+    padding-top: 5px  ;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius:8px;
+ }
+ 
+ .phone{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-right: 90px;
+    padding-top: 5px  ;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius:8px; 
+ }
+ .date{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-top: 5px  ;
+    padding-bottom: 5px;
+    padding-right: 90px;
+    font-size: 20px; 
+    border-radius:8px; 
+ }
+ .addf{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 90px;
+    font-size: 20px; 
+ }
